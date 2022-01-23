@@ -7,6 +7,7 @@
 ## TCAR All Schematics.
 
 - [MCU PIC-8BIT.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/mcu/extras/schematic.pdf)
+- [Motors - LP298.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/motors/extras/schematic.pdf)
 
 ## TCAR MCU PIC 16Bit top.
 
