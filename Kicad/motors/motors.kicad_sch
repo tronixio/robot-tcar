@@ -1,0 +1,627 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 4da6a938-c60d-4f2b-b220-45104eaab2a6)
+
+  (paper "A4")
+
+  (title_block
+    (title "Diagram")
+    (date "01/2021")
+    (rev "A")
+    (comment 1 "TCAR Motor Board - L298P")
+  )
+
+  (lib_symbols
+    (symbol "tronixio:MOUNTING-HOLE-MASK-3MM" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (id 0) (at 0 2.54 0)
+        (effects (font (size 1 1)) hide)
+      )
+      (property "Value" "MOUNTING-HOLE-MASK-3MM" (id 1) (at 0 -2.54 0)
+        (effects (font (size 1 1)) hide)
+      )
+      (property "Footprint" "tronixio:M3-MASK" (id 2) (at 0 -5.08 0)
+        (effects (font (size 1 1)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 -7.62 0)
+        (effects (font (size 1 1)) hide)
+      )
+      (symbol "MOUNTING-HOLE-MASK-3MM_0_1"
+        (polyline
+          (pts
+            (xy -1.016 -1.016)
+            (xy 1.016 1.016)
+          )
+          (stroke (width 0.3) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.016)
+            (xy -1.016 1.016)
+          )
+          (stroke (width 0.3) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 1.524)
+          (stroke (width 0.3) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "tronixio:MOUNTING-HOLE-MASK-3MM") (at 276.86 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 110d6c1b-d137-4b67-995f-87ad7216bb9d)
+    (property "Reference" "H?" (id 0) (at 276.86 170.18 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Value" "MOUNTING-HOLE-MASK-3MM" (id 1) (at 276.86 175.26 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Footprint" "tronixio:M3-MASK" (id 2) (at 276.86 177.8 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 276.86 180.34 0)
+      (effects (font (size 1 1)) hide)
+    )
+  )
+
+  (symbol (lib_id "tronixio:MOUNTING-HOLE-MASK-3MM") (at 271.78 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 2f66b611-0b85-42e5-84f5-fdd0564ced8e)
+    (property "Reference" "H?" (id 0) (at 271.78 170.18 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Value" "MOUNTING-HOLE-MASK-3MM" (id 1) (at 271.78 175.26 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Footprint" "tronixio:M3-MASK" (id 2) (at 271.78 177.8 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 271.78 180.34 0)
+      (effects (font (size 1 1)) hide)
+    )
+  )
+
+  (symbol (lib_id "tronixio:MOUNTING-HOLE-MASK-3MM") (at 266.7 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 4428b5da-95e9-4672-95c7-ad455b525bb7)
+    (property "Reference" "H?" (id 0) (at 266.7 170.18 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Value" "MOUNTING-HOLE-MASK-3MM" (id 1) (at 266.7 175.26 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Footprint" "tronixio:M3-MASK" (id 2) (at 266.7 177.8 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 266.7 180.34 0)
+      (effects (font (size 1 1)) hide)
+    )
+  )
+
+  (symbol (lib_id "tronixio:MOUNTING-HOLE-MASK-3MM") (at 261.62 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 753ba66e-150e-4ccf-bd4c-c006ec0d685d)
+    (property "Reference" "H?" (id 0) (at 261.62 170.18 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Value" "MOUNTING-HOLE-MASK-3MM" (id 1) (at 261.62 175.26 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Footprint" "tronixio:M3-MASK" (id 2) (at 261.62 177.8 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 261.62 180.34 0)
+      (effects (font (size 1 1)) hide)
+    )
+  )
+
+  (symbol (lib_id "tronixio:MOUNTING-HOLE-MASK-3MM") (at 251.46 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid bbbed482-f72f-4124-b800-180a18692d08)
+    (property "Reference" "H?" (id 0) (at 251.46 170.18 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Value" "MOUNTING-HOLE-MASK-3MM" (id 1) (at 251.46 175.26 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Footprint" "tronixio:M3-MASK" (id 2) (at 251.46 177.8 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 251.46 180.34 0)
+      (effects (font (size 1 1)) hide)
+    )
+  )
+
+  (symbol (lib_id "tronixio:MOUNTING-HOLE-MASK-3MM") (at 256.54 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid bf6a0696-5fec-4f7f-b1b5-a3dc6b751966)
+    (property "Reference" "H?" (id 0) (at 256.54 170.18 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Value" "MOUNTING-HOLE-MASK-3MM" (id 1) (at 256.54 175.26 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Footprint" "tronixio:M3-MASK" (id 2) (at 256.54 177.8 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 256.54 180.34 0)
+      (effects (font (size 1 1)) hide)
+    )
+  )
+
+  (sheet (at 154.94 111.76) (size 27.94 27.94)
+    (stroke (width 0.001) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 56bd3a46-de12-45e9-9566-afec966f2cad)
+    (property "Sheet name" "Encoder" (id 0) (at 154.94 111.1591 0)
+      (effects (font (size 1.2 1.2)) (justify left bottom))
+    )
+    (property "Sheet file" "encoder.kicad_sch" (id 1) (at 154.94 140.1809 0)
+      (effects (font (size 1.2 1.2)) (justify left top))
+    )
+  )
+
+  (sheet (at 154.94 68.58) (size 27.94 27.94)
+    (stroke (width 0.001) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6012b3a0-2f30-4458-8240-bd443182c6c0)
+    (property "Sheet name" "Driver" (id 0) (at 154.94 67.9441 0)
+      (effects (font (size 1.2 1.2)) (justify left bottom))
+    )
+    (property "Sheet file" "driver.kicad_sch" (id 1) (at 154.94 97.0289 0)
+      (effects (font (size 1.2 1.2)) (justify left top))
+    )
+  )
+
+  (sheet (at 109.22 68.58) (size 27.94 27.94)
+    (stroke (width 0.001) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6dca117b-1aaa-49ac-ac49-257b60ed2b71)
+    (property "Sheet name" "Power" (id 0) (at 109.22 67.9791 0)
+      (effects (font (size 1.2 1.2)) (justify left bottom))
+    )
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 109.22 97.0009 0)
+      (effects (font (size 1.2 1.2)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71" (page "2"))
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0" (page "3"))
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad" (page "4"))
+  )
+
+  (symbol_instances
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/1b89af56-0bbd-4645-9b69-6289028bcecd"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/36ac8433-4edd-4871-96f6-f86c607c6d4e"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/0541d24d-1ff7-4614-a5c4-b8865b7167bf"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/05ae679e-4beb-4968-8baa-78a79ec1ceb2"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/15a85519-4fd0-465d-8823-2ea556fa6953"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/176dd577-3f43-41f4-9319-d9e01ff2c4f8"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/1cb3d3e5-ec01-4c71-96d6-19af2672efb1"
+      (reference "#PWR?") (unit 1) (value "POWER-+3V3") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/1ec900bb-68c2-4cb0-ac09-ce99ae0bf568"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/1f4af665-2d1a-4d40-885f-ec0ab62f2a81"
+      (reference "#PWR?") (unit 1) (value "POWER-+5V") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/283017e6-a4a8-4e38-be26-0987bcacfc31"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/287ee00e-0ae1-421c-b195-4971d59d8eb9"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/29771f7e-277c-413c-b6be-bd89bb20d231"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/2ebe7828-97d8-4f3f-b24e-3929a401d7a1"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/34b32f45-11c5-4ff8-89a0-9ec238d4b233"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/3628dd7a-7b4c-49aa-9e93-7eb04579c465"
+      (reference "#PWR?") (unit 1) (value "POWER-VBAT") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/3dbba243-a5f9-4137-8950-e02d5fc37e62"
+      (reference "#PWR?") (unit 1) (value "POWER-VCC") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/3f188477-8242-4c34-861a-c9ce45d59376"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/3ffc7e8b-3383-4b7c-bae2-11c161ff0fbe"
+      (reference "#PWR?") (unit 1) (value "POWER-+5V") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/4020b96c-6b1d-4822-af47-6825955cf5f4"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/4a8953e3-dfbd-4826-a570-e50c3c8746a4"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/5532a319-ab6b-4c58-af39-9182652365d7"
+      (reference "#PWR?") (unit 1) (value "POWER-+5V") (footprint "")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/5d129332-cfce-46be-92b2-965f956379c9"
+      (reference "#PWR?") (unit 1) (value "POWER-VIN") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/60da338c-cc38-47c1-8758-928104f29e49"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/613a3026-48cb-47f4-9996-6bb3fd097c97"
+      (reference "#PWR?") (unit 1) (value "POWER-+5V") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/6c6fafe7-9c46-4a35-9c07-4a97deacd4cc"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/6ea0ef72-5ee5-49f6-8f40-8e658f92be06"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/6f27e9ea-9d69-4cf1-9ceb-c0ad6b10d97f"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/70059e21-5229-4a13-aabb-7c6cf2492096"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/736d2e8f-b728-47aa-a947-058b6afc0772"
+      (reference "#PWR?") (unit 1) (value "POWER-VBAT") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/74ffdb10-95ed-4b10-94d0-c24184ffb4c2"
+      (reference "#PWR?") (unit 1) (value "POWER-VBAT") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/7a11e77f-bd1e-4ab6-970c-954bee4347d4"
+      (reference "#PWR?") (unit 1) (value "POWER-+5V") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/7af172e9-994b-4b68-b0ae-5a63800a33d0"
+      (reference "#PWR?") (unit 1) (value "POWER-VIN") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/86754743-2d2a-4ebc-8b7e-fe76254c27e9"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/89087e7a-b5bd-49cc-9b30-ada7862cf484"
+      (reference "#PWR?") (unit 1) (value "POWER-VCC") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/8b342ab0-facc-436d-8b01-dd2624b3b801"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/8d689569-6a4b-49a3-bca4-128d8a4b0d47"
+      (reference "#PWR?") (unit 1) (value "POWER-+3V3") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/8da3034e-3da0-4334-b40c-9f1d1ece7fe6"
+      (reference "#PWR?") (unit 1) (value "POWER-VIN") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/91ac0027-a2d7-404a-8505-c2a99aef5cc4"
+      (reference "#PWR?") (unit 1) (value "POWER-VIN") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/92479783-e539-49a2-b101-a0351d605e94"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/9515bd59-0dda-4871-8402-b71c9c08980c"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/95961863-a946-4fa9-9690-3d979b9abf29"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/95f8ef5d-b76f-449c-a27d-b8c15a63cd19"
+      (reference "#PWR?") (unit 1) (value "POWER-VIN") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/9af7c115-e67a-4645-920d-29c8d311d195"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/9bb6c7df-1374-4c1e-a550-bcce737cee4c"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/a4cbc9ef-add7-475a-90d9-d16af96a8727"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/c0314ebe-be03-4619-a44a-b83186035444"
+      (reference "#PWR?") (unit 1) (value "POWER-VIN") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/c2ca8d16-4f71-43bf-93cc-192147034c91"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/c8f97eff-98a4-419f-8d93-bacd63d992c5"
+      (reference "#PWR?") (unit 1) (value "POWER-+5V") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/cca86fdf-71a6-4de7-a351-2b2158b8dd49"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/d48ce7ec-6be8-4b35-b0b9-2449adea12d3"
+      (reference "#PWR?") (unit 1) (value "POWER-+5V") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/d6f9c6e4-51c8-44a0-a58a-038b97931c53"
+      (reference "#PWR?") (unit 1) (value "POWER-VIN") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/d94315c6-9c57-4bf0-af72-998bb2ae50e9"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/dcb7570f-7fc6-4217-bca6-2b949df2e889"
+      (reference "#PWR?") (unit 1) (value "POWER-VIN") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/dd3b2df7-bfaa-4926-9e5d-92f27846612a"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/e2a9c41b-0bcb-4a8e-9460-15fe217eded2"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/e6244c72-e1a1-4384-bbe4-b44e2590fcd7"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/e7b050b3-951e-463c-9a3f-353134275e4f"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/f3c23cd5-640c-4bd5-b8d4-047b9b159481"
+      (reference "#PWR?") (unit 1) (value "POWER-VIN") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/f49009cf-0281-4799-b8eb-f97ae96ae7fe"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/f9d8929a-a4e5-4f32-bcbe-a97ec5aabcb0"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/fc0907a9-6c9d-4d35-830c-c5699315aa9a"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/a6515672-c044-441c-9f38-c8c9f33ab817"
+      (reference "BT?") (unit 1) (value "KEYSTONE-1049") (footprint "tronixio:KEYSTONE-1049")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/93bf9287-04a0-4853-8ddf-befccc0fc312"
+      (reference "BT?") (unit 2) (value "KEYSTONE-1049") (footprint "tronixio:KEYSTONE-1049")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/1d966b8a-6441-4d21-a53d-e7a0c525ea3b"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/221619f5-7774-44d8-b727-3c3326d81023"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/24d4ea45-b814-4ee4-8a2b-f07986c31541"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/28676ad6-6f49-4765-be99-3eb2ff471462"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/3597cca5-4d6f-4d92-b95d-04403945cf7d"
+      (reference "C?") (unit 1) (value "UVZ-470U-35V") (footprint "tronixio:CAPACITOR-ELECTROLYTIC-RADIAL-100-160-050")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/4d091982-2505-4dea-86b1-60fb3d31e840"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/5104dde8-01fc-4e6b-afdf-7a71e30014bc"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/60e8a20e-ee80-4a40-8c4e-6b80e6fca07b"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/89564884-b72a-4f7e-a18a-162aea753e52"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/a33078b1-8693-4b50-a773-14e2b155fdc0"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/c1f28a77-966e-49a4-8fc1-c669ac9c3aba"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/cdbd86da-5dd2-4b85-9d7a-a5c74977e099"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/e11535e4-0bf0-447b-8aaa-f480cbd930ce"
+      (reference "C?") (unit 1) (value "C-1206") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/eb67dfdb-2855-4c40-8af5-1381675a73a2"
+      (reference "C?") (unit 1) (value "UVZ-470U-35V") (footprint "tronixio:CAPACITOR-ELECTROLYTIC-RADIAL-100-160-050")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/10e22a05-aa34-4c1b-9051-e889c93322b3"
+      (reference "D?") (unit 1) (value "PMEG3030") (footprint "tronixio:SOD-128")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/652082ce-ab8d-4260-8be6-711e4c473694"
+      (reference "D?") (unit 1) (value "PMEG3030") (footprint "tronixio:SOD-128")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/6be00519-cae5-4675-bda9-e6c7c3d28d94"
+      (reference "D?") (unit 1) (value "PMEG3030") (footprint "tronixio:SOD-128")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/7f56ff32-6a4f-42ca-9918-c48a5d3df293"
+      (reference "D?") (unit 1) (value "PMEG3030") (footprint "tronixio:SOD-128")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/8ad0f90a-bda5-4a2b-8b1a-d24c5d6fbfc5"
+      (reference "D?") (unit 1) (value "PMEG3030") (footprint "tronixio:SOD-128")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/90d4f79e-b820-4ed6-9e50-45311da04d2d"
+      (reference "D?") (unit 1) (value "PMEG3030") (footprint "tronixio:SOD-128")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/cf44566f-213a-4bf6-907c-cf6dd11c54f4"
+      (reference "D?") (unit 1) (value "PMEG3030") (footprint "tronixio:SOD-128")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/d7fd22db-6052-4b18-8bad-7a4b3bc4a408"
+      (reference "D?") (unit 1) (value "PMEG3030") (footprint "tronixio:SOD-128")
+    )
+    (path "/110d6c1b-d137-4b67-995f-87ad7216bb9d"
+      (reference "H?") (unit 1) (value "MOUNTING-HOLE-MASK-3MM") (footprint "tronixio:M3-MASK")
+    )
+    (path "/2f66b611-0b85-42e5-84f5-fdd0564ced8e"
+      (reference "H?") (unit 1) (value "MOUNTING-HOLE-MASK-3MM") (footprint "tronixio:M3-MASK")
+    )
+    (path "/4428b5da-95e9-4672-95c7-ad455b525bb7"
+      (reference "H?") (unit 1) (value "MOUNTING-HOLE-MASK-3MM") (footprint "tronixio:M3-MASK")
+    )
+    (path "/753ba66e-150e-4ccf-bd4c-c006ec0d685d"
+      (reference "H?") (unit 1) (value "MOUNTING-HOLE-MASK-3MM") (footprint "tronixio:M3-MASK")
+    )
+    (path "/bbbed482-f72f-4124-b800-180a18692d08"
+      (reference "H?") (unit 1) (value "MOUNTING-HOLE-MASK-3MM") (footprint "tronixio:M3-MASK")
+    )
+    (path "/bf6a0696-5fec-4f7f-b1b5-a3dc6b751966"
+      (reference "H?") (unit 1) (value "MOUNTING-HOLE-MASK-3MM") (footprint "tronixio:M3-MASK")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/1ef77c4f-1b14-4b4f-8158-c6b15f81a4a0"
+      (reference "IC?") (unit 1) (value "BQ2057W") (footprint "tronixio:SOIC-08")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/445183cf-ff1e-47b3-b410-ba14b8c28ad0"
+      (reference "IC?") (unit 1) (value "SN74LVC1G19-SOT") (footprint "tronixio:SOT-23-6")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/cb720426-ed8c-4b7c-9175-98ebc7b1bfbb"
+      (reference "IC?") (unit 1) (value "LM3480-50-SOT") (footprint "tronixio:SOT-23-3")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/ccf2c254-8ca1-4522-b602-993f2b118bf2"
+      (reference "IC?") (unit 1) (value "SN74LVC1G19-SOT") (footprint "tronixio:SOT-23-6")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/de846cb3-f258-4178-b991-12f15f8d2744"
+      (reference "IC?") (unit 1) (value "LM3480-33-SOT") (footprint "tronixio:SOT-23-3")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/ffaa8e0c-411f-42a9-bc44-e1994202408e"
+      (reference "IC?") (unit 1) (value "L298P") (footprint "tronixio:SOPOWER-20")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/032a4417-b85c-40d9-8902-4f8f9da6ffbf"
+      (reference "IC?") (unit 2) (value "SN74LVC1G19-SOT") (footprint "tronixio:SOT-23-6")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/17727480-6aa6-4ddb-89e0-ef0a9ed572f7"
+      (reference "IC?") (unit 2) (value "SN74LVC1G19-SOT") (footprint "tronixio:SOT-23-6")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/60ffe4c9-b9a1-41f3-9891-fd091a3a825d"
+      (reference "IC?") (unit 2) (value "SN74LVC1G19-SOT") (footprint "tronixio:SOT-23-6")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/847869a4-ba90-470b-9d67-e05474764592"
+      (reference "IC?") (unit 2) (value "SN74LVC1G19-SOT") (footprint "tronixio:SOT-23-6")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/9692c40a-568f-4a85-bd1b-658f0c6383ce"
+      (reference "IC?") (unit 2) (value "SN74LVC1G19-SOT") (footprint "tronixio:SOT-23-6")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/99dc4231-a66b-4daf-a5d0-1cb7468eeea6"
+      (reference "IC?") (unit 2) (value "SN74LVC1G19-SOT") (footprint "tronixio:SOT-23-6")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/bf1cf55a-96d7-4433-8ab1-18a29971c07c"
+      (reference "IC?") (unit 2) (value "SN74LVC1G19-SOT") (footprint "tronixio:SOT-23-6")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/bf9f68e0-70bc-435a-a165-490a6bf393bd"
+      (reference "IC?") (unit 2) (value "SN74LVC1G19-SOT") (footprint "tronixio:SOT-23-6")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/32e582e9-f488-455b-92fd-343d67faf290"
+      (reference "K?") (unit 1) (value "CUI-TB006-508-02BE") (footprint "tronixio:CUI-TB006-508-02BE")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/4bfb646a-415f-463c-9f80-4590cb2db395"
+      (reference "K?") (unit 1) (value "CUI-PJ-102AH-TH") (footprint "tronixio:CUI-PJ-102AH")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/fbf68a94-0255-4357-b0c0-377ea44b5b13"
+      (reference "K?") (unit 1) (value "CUI-TB006-508-02BE") (footprint "tronixio:CUI-TB006-508-02BE")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/1058f444-a423-431d-b948-4e3b5dd3b790"
+      (reference "LED?") (unit 1) (value "LED-1206-ORANGE") (footprint "tronixio:LED-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/1a84f4c7-9a12-479b-a01b-6042d807a0d7"
+      (reference "LED?") (unit 1) (value "LED-1206-ORANGE") (footprint "tronixio:LED-1206")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/61b20008-eb16-4064-9068-5dd124582c2f"
+      (reference "LED?") (unit 1) (value "LED-1206-ORANGE") (footprint "tronixio:LED-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/6f2881df-73d1-44ab-bce1-65324ff4dedb"
+      (reference "LED?") (unit 1) (value "LED-1206-ORANGE") (footprint "tronixio:LED-1206")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/98ebd174-9752-42d9-b52d-655a547e47fb"
+      (reference "LED?") (unit 1) (value "LED-1206-ORANGE") (footprint "tronixio:LED-1206")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/b26c37b7-ac45-454c-bd4a-aa188982e51b"
+      (reference "LED?") (unit 1) (value "LED-1206-ORANGE") (footprint "tronixio:LED-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/c596987b-e580-4c88-81d9-a14809ba7ed8"
+      (reference "LED?") (unit 1) (value "LED-1206-ORANGE") (footprint "tronixio:LED-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/c6e3e41d-a86b-4f33-885f-ef41e1a3e229"
+      (reference "LED?") (unit 1) (value "LED-1206-ORANGE") (footprint "tronixio:LED-1206")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/0b0de33b-dd5c-432a-bc99-ae417eed9420"
+      (reference "Q?") (unit 1) (value "STN790A") (footprint "tronixio:SOT-223-3")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/2109a4fe-db79-43ac-8b6a-6e4c73fbe3f4"
+      (reference "R?") (unit 1) (value "R-1210") (footprint "tronixio:RESISTOR-1210")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/24bee82c-31cf-4174-85b2-c78bb3d688d5"
+      (reference "R?") (unit 1) (value "R-1206") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/28a9016e-ade1-4cf6-a19b-ea08cde07870"
+      (reference "R?") (unit 1) (value "R-1206") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/34d288c2-6f82-4b4e-8339-81efd3eacda1"
+      (reference "R?") (unit 1) (value "R-1210") (footprint "tronixio:RESISTOR-1210")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/5c0d2fcf-4db0-4c63-a7d5-eda9d93fc641"
+      (reference "R?") (unit 1) (value "R-1206") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/6950f3c1-0905-4925-b45a-e178bef8b690"
+      (reference "R?") (unit 1) (value "R-1206") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/6e2ecd13-5503-4131-8c70-c6cee47fda7b"
+      (reference "R?") (unit 1) (value "R-1206") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/7d973420-a572-44d9-bfd9-b476a1c9efd9"
+      (reference "R?") (unit 1) (value "R-1206") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/93e69579-06cd-424c-bde4-b3d57ecd242f"
+      (reference "R?") (unit 1) (value "R-1210") (footprint "tronixio:RESISTOR-1210")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/9f503b7f-e4f9-4b1f-945d-c364df4cad12"
+      (reference "R?") (unit 1) (value "R-1210") (footprint "tronixio:RESISTOR-1210")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/aeadb613-89b5-41fd-8f93-4d359748ebd0"
+      (reference "R?") (unit 1) (value "R-1206") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/c102a29f-ff23-46ad-8efb-ac6f3db0d944"
+      (reference "R?") (unit 1) (value "R-1206") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/d08057e0-b58d-45fc-8abd-b5c600343759"
+      (reference "R?") (unit 1) (value "R-1206") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/deea5171-a8e6-4841-8644-2b6133996890"
+      (reference "R?") (unit 1) (value "R-1206") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/fea86361-982e-43c5-ad3e-7f1144b24460"
+      (reference "R?") (unit 1) (value "R-1206") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/53cc3d7a-dcbd-4860-b906-1434fecf6410"
+      (reference "S?") (unit 1) (value "E-SWITCH-200USP1T1A1M2RE") (footprint "tronixio:E-SWITCH-200USPXT1A1M2RE")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/273efd4e-e63d-4bd1-89a1-9afe240b564e"
+      (reference "T?") (unit 1) (value "DMP2305U") (footprint "tronixio:SOT-23-3")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/ab643245-fd29-4dcd-82c3-71b238017fa8"
+      (reference "T?") (unit 1) (value "DMP2305U") (footprint "tronixio:SOT-23-3")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/2381f439-e6e5-4757-9ff7-7c7c3adce669"
+      (reference "TH?") (unit 1) (value "THERMISTOR-NTC-10K") (footprint "tronixio:THERMISTOR")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/0bd8c9c0-8d12-41e3-b4b9-99a675d5f71a"
+      (reference "TP?") (unit 1) (value "KEYSTONE-5006") (footprint "tronixio:KEYSTONE-5006")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/25756461-45be-4372-9a14-9816304d934a"
+      (reference "TP?") (unit 1) (value "KEYSTONE-5006") (footprint "tronixio:KEYSTONE-5006")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/7335141b-538f-4f46-9912-31546f40ec78"
+      (reference "TP?") (unit 1) (value "KEYSTONE-5006") (footprint "tronixio:KEYSTONE-5006")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/e0ae82c8-5b3a-4649-b317-1c1b4b0b7272"
+      (reference "TP?") (unit 1) (value "KEYSTONE-5006") (footprint "tronixio:KEYSTONE-5006")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/ea5228af-36f6-49e8-b4fa-3f3755ec0197"
+      (reference "TP?") (unit 1) (value "KEYSTONE-5006") (footprint "tronixio:KEYSTONE-5006")
+    )
+    (path "/6dca117b-1aaa-49ac-ac49-257b60ed2b71/f38e54ca-98b0-4c5a-81d1-2cda6d700286"
+      (reference "TP?") (unit 1) (value "KEYSTONE-5006") (footprint "tronixio:KEYSTONE-5006")
+    )
+  )
+)
