@@ -1269,6 +1269,10 @@
     (uuid fa7af1da-3d1b-4f40-89e0-c68875fd7f12)
   )
 
+  (text "DRAFT" (at 157.48 142.24 0)
+    (effects (font (size 12.7 12.7)) (justify left bottom))
+    (uuid 1b87e6b2-da8d-48e8-a3fa-8d7a2a151742)
+  )
   (text "9V/1A" (at 157.48 69.85 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4db15c86-1bb2-4eaf-acc6-41455c3f4679)

@@ -834,6 +834,11 @@
     (uuid fa956abf-6c62-4566-9920-04e064b079b4)
   )
 
+  (text "DRAFT" (at 127 93.98 0)
+    (effects (font (size 12.7 12.7)) (justify left bottom))
+    (uuid 44359aa3-a146-4361-a6d3-bf8baf4d0769)
+  )
+
   (symbol (lib_id "tronixio:SN74LVC1G19-SOT") (at 116.84 177.8 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 032a4417-b85c-40d9-8902-4f8f9da6ffbf)

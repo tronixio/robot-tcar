@@ -51,6 +51,11 @@
   )
 
 
+  (text "DRAFT" (at 66.04 137.16 0)
+    (effects (font (size 12.7 12.7)) (justify left bottom))
+    (uuid 29ec1054-96e5-4371-8fe7-f31c027b27f9)
+  )
+
   (symbol (lib_id "tronixio:MOUNTING-HOLE-MASK-3MM") (at 276.86 172.72 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 110d6c1b-d137-4b67-995f-87ad7216bb9d)
