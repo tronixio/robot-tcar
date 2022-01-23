@@ -6,7 +6,7 @@
 
   (title_block
     (title "Motor Encoder")
-    (date "01/2021")
+    (date "01/2022")
     (rev "A")
     (comment 1 "TCAR Motor Board - L298P")
   )
@@ -647,7 +647,6 @@
       )
     )
   )
-
 
   (junction (at 124.46 172.72) (diameter 0.9144) (color 0 0 0 0)
     (uuid 168a0226-3f44-46ec-a72a-15290137bd66)

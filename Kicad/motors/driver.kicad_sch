@@ -6,7 +6,7 @@
 
   (title_block
     (title "Motor Driver")
-    (date "01/2021")
+    (date "01/2022")
     (rev "A")
     (comment 1 "TCAR Motor Board - L298P")
   )
@@ -945,7 +945,6 @@
       )
     )
   )
-
 
   (junction (at 106.68 66.04) (diameter 0.9144) (color 0 0 0 0)
     (uuid 0a79db37-f1d9-40b1-a24d-8bdfb8f637e2)
