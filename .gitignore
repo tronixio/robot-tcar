@@ -6,6 +6,8 @@ Docs/
 Kicad/*/gerber/
 Kicad/*/*-backups/
 Kicad/*/fp-info-cache
+
+# XC16
 #MplabX/XC16-P24FJ64GA106.X/main.c
 MplabX/XC16-P24FJ64GA106.X/Makefile
 MplabX/XC16-P24FJ64GA106.X/build/
