@@ -6,7 +6,7 @@
 
 ## TCAR All Schematics.
 
-- [MCU Board PIC-16Bit - PIC24FJ.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/mcu/extras/schematic.pdf)
+- [MCU Board - PIC24FJ.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/mcu/extras/schematic.pdf)
 - [Motors Board - LP298.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/motors/extras/schematic.pdf)
 
 ## TCAR MCU PIC 16Bit top.
