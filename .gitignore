@@ -6,10 +6,10 @@ Docs/
 Kicad/*/gerber/
 Kicad/*/*-backups/
 Kicad/*/fp-info-cache
-#MplabX/XC8-P24FJ64GA106.X/main.c
-MplabX/XC8-P24FJ64GA106.X/Makefile
-MplabX/XC8-P24FJ64GA106.X/build/
-MplabX/XC8-P24FJ64GA106.X/disassembly/
-MplabX/XC8-P24FJ64GA106.X/dist/
-MplabX/XC8-P24FJ64GA106.X/nbproject/
-MplabX/XC8-P24FJ64GA106.X/.generated_files/
+#MplabX/XC16-P24FJ64GA106.X/main.c
+MplabX/XC16-P24FJ64GA106.X/Makefile
+MplabX/XC16-P24FJ64GA106.X/build/
+MplabX/XC16-P24FJ64GA106.X/disassembly/
+MplabX/XC16-P24FJ64GA106.X/dist/
+MplabX/XC16-P24FJ64GA106.X/nbproject/
+MplabX/XC16-P24FJ64GA106.X/.generated_files/
