@@ -3475,16 +3475,16 @@
       (reference "IC302") (unit 3) (value "SN74LVC2G17") (footprint "tronixio:SOT-23-6")
     )
     (path "/56bd3a46-de12-45e9-9566-afec966f2cad/93c96154-497b-4f6e-9a1e-cbdffc6e80c2"
-      (reference "IC303") (unit 1) (value "OPB610") (footprint "tronixio:zzzOPB-610")
+      (reference "IC303") (unit 1) (value "TTE-OPB610") (footprint "tronixio:zzzOPB-610")
     )
     (path "/56bd3a46-de12-45e9-9566-afec966f2cad/e5ae3808-aad9-4a50-8afc-45199a7382a1"
-      (reference "IC304") (unit 1) (value "OPB610") (footprint "tronixio:zzzOPB-610")
+      (reference "IC304") (unit 1) (value "TTE-OPB610") (footprint "tronixio:zzzOPB-610")
     )
     (path "/56bd3a46-de12-45e9-9566-afec966f2cad/da94d0d9-37d6-4f4f-aee6-0272209c7fa7"
-      (reference "IC305") (unit 1) (value "OPB610") (footprint "tronixio:zzzOPB-610")
+      (reference "IC305") (unit 1) (value "TTE-OPB610") (footprint "tronixio:zzzOPB-610")
     )
     (path "/56bd3a46-de12-45e9-9566-afec966f2cad/8eb574a1-217a-4330-a810-02cdd9f9319d"
-      (reference "IC306") (unit 1) (value "OPB610") (footprint "tronixio:zzzOPB-610")
+      (reference "IC306") (unit 1) (value "TTE-OPB610") (footprint "tronixio:zzzOPB-610")
     )
     (path "/56bd3a46-de12-45e9-9566-afec966f2cad/de846cb3-f258-4178-b991-12f15f8d2744"
       (reference "IC307") (unit 1) (value "LM3480-33") (footprint "tronixio:SOT-23-3")
