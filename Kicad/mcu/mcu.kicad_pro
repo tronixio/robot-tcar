@@ -357,7 +357,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "tronixio"
+    ]
   },
   "meta": {
     "filename": "mcu.kicad_pro",
@@ -584,7 +586,7 @@
     ],
     [
       "56bd3a46-de12-45e9-9566-afec966f2cad",
-      "Encoder"
+      "HID"
     ]
   ],
   "text_variables": {}

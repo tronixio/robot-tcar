@@ -8,7 +8,7 @@
     (title "Power")
     (date "01/2022")
     (rev "A")
-    (comment 1 "TCAR MCU Board - PIC24")
+    (comment 1 "TCAR MCU Board - PIC24FJ")
   )
 
   (lib_symbols
@@ -414,51 +414,6 @@
         )
       )
     )
-    (symbol "tronixio:POWER-VBAT" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -10.16 0)
-        (effects (font (size 1 1)) hide)
-      )
-      (property "Value" "POWER-VBAT" (id 1) (at 0 -12.7 0)
-        (effects (font (size 1 1)) hide)
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1 1)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1 1)) hide)
-      )
-      (property "Name" "VBAT" (id 4) (at 0 5.08 0)
-        (effects (font (size 1.15 1.15)))
-      )
-      (symbol "POWER-VBAT_0_1"
-        (polyline
-          (pts
-            (xy -0.635 2.54)
-            (xy 0.635 2.54)
-          )
-          (stroke (width 0.2) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.905)
-            (xy 0 3.175)
-          )
-          (stroke (width 0.2) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 0 2.54) (radius 1.27)
-          (stroke (width 0.4) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "POWER-VBAT_1_1"
-        (pin power_in line (at 0 0 90) (length 1.27)
-          (name "VBAT" (effects (font (size 1 1))))
-          (number "1" (effects (font (size 1 1))))
-        )
-      )
-    )
     (symbol "tronixio:POWER-VCC" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -10.16 0)
         (effects (font (size 1 1)) hide)
@@ -607,10 +562,6 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 27f1b03e-f1fc-4da5-a760-9588f5f5fd7f)
   )
-  (wire (pts (xy 157.48 180.34) (xy 157.48 190.5))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-    (uuid 2f5a2215-6ff8-4f1b-a890-7dfec88996f7)
-  )
   (wire (pts (xy 53.34 68.58) (xy 53.34 71.12))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 42cd5fde-d496-467b-9aa3-63e7f6326518)
@@ -677,24 +628,6 @@
       (effects (font (size 1 1)) hide)
     )
     (pin "1" (uuid 92ae3da3-e9d3-4e7e-a529-97c804492bc0))
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 157.48 190.5 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 0610e5c1-7e79-4a2c-bcc8-8e76eeecda25)
-    (property "Reference" "#FLG0102" (id 0) (at 157.48 188.595 0)
-      (effects (font (size 1.15 1.15)) hide)
-    )
-    (property "Value" "PWR_FLAG" (id 1) (at 157.48 186.69 0)
-      (effects (font (size 1.15 1.15)) hide)
-    )
-    (property "Footprint" "" (id 2) (at 157.48 190.5 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 157.48 190.5 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 5e0e8367-c379-46c1-8671-e5163fed770e))
   )
 
   (symbol (lib_id "tronixio:POWER-+3V3") (at 93.98 53.34 0) (unit 1)
@@ -1094,34 +1027,13 @@
     (pin "3" (uuid 8b338a70-b240-4f93-8eca-03c29da5794b))
   )
 
-  (symbol (lib_id "tronixio:POWER-VBAT") (at 157.48 180.34 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid d0f434dd-71f6-4972-8d50-0eb164b37036)
-    (property "Reference" "#PWR0108" (id 0) (at 157.48 190.5 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Value" "POWER-VBAT" (id 1) (at 157.48 193.04 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Footprint" "" (id 2) (at 157.48 180.34 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 157.48 180.34 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Name" "VBAT" (id 4) (at 157.48 175.26 0)
-      (effects (font (size 1.15 1.15)))
-    )
-    (pin "1" (uuid 0ecc74db-2a81-41da-9f9d-91c701b7d1db))
-  )
-
   (symbol (lib_id "tronixio:LED-1206-RED") (at 93.98 66.04 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d60193f4-8481-4abd-b144-cbba3dc6e1a6)
     (property "Reference" "LED101" (id 0) (at 94.615 63.5 90)
       (effects (font (size 1.15 1.15)) (justify left))
     )
-    (property "Value" "+3V3" (id 1) (at 94.615 68.58 90)
+    (property "Value" "Power" (id 1) (at 94.615 68.58 90)
       (effects (font (size 1.15 1.15)) (justify left))
     )
     (property "Footprint" "tronixio:LED-1206" (id 2) (at 86.36 66.04 0)
@@ -1212,7 +1124,7 @@
     (stroke (width 0.001) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 56bd3a46-de12-45e9-9566-afec966f2cad)
-    (property "Sheet name" "Encoder" (id 0) (at 93.98 146.7191 0)
+    (property "Sheet name" "HID" (id 0) (at 93.98 146.7191 0)
       (effects (font (size 1.2 1.2)) (justify left bottom))
     )
     (property "Sheet file" "hid.kicad_sch" (id 1) (at 93.98 182.88 0)
@@ -1227,7 +1139,7 @@
     (property "Sheet name" "MCU" (id 0) (at 43.18 146.6841 0)
       (effects (font (size 1.2 1.2)) (justify left bottom))
     )
-    (property "Sheet file" "driver.kicad_sch" (id 1) (at 43.18 182.88 0)
+    (property "Sheet file" "pic.kicad_sch" (id 1) (at 43.18 182.88 0)
       (effects (font (size 1.2 1.2)) (justify left top))
     )
   )
@@ -1241,9 +1153,6 @@
   (symbol_instances
     (path "/232e826b-131d-4137-8235-9970e86d2ca9"
       (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/0610e5c1-7e79-4a2c-bcc8-8e76eeecda25"
-      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/153c0e00-77e0-42ba-81f6-75fa564a2c4a"
       (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
@@ -1272,9 +1181,6 @@
     (path "/040fe8bd-99f3-4a93-b3f1-bba3895f6f30"
       (reference "#PWR0107") (unit 1) (value "POWER-GND") (footprint "")
     )
-    (path "/d0f434dd-71f6-4972-8d50-0eb164b37036"
-      (reference "#PWR0108") (unit 1) (value "POWER-VBAT") (footprint "")
-    )
     (path "/9a3cb2cf-078a-4252-9cb7-436cdaffb870"
       (reference "#PWR0109") (unit 1) (value "POWER-VIN") (footprint "")
     )
@@ -1296,11 +1202,53 @@
     (path "/56bd3a46-de12-45e9-9566-afec966f2cad/6eed49be-ce9f-4707-a09f-dc868fc6da5a"
       (reference "#PWR0304") (unit 1) (value "POWER-GND") (footprint "")
     )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/0737a056-888e-4abf-8e90-747fcb02ac5b"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/11c7caea-afa2-46e4-93dc-d94c4fd5d43e"
+      (reference "#PWR?") (unit 1) (value "POWER-+3V3") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/20d6997e-64c7-454b-9573-baf26e1ad11b"
+      (reference "#PWR?") (unit 1) (value "POWER-+3V3") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/3d38eca7-b037-4400-970c-46db57e3c3cb"
+      (reference "#PWR?") (unit 1) (value "POWER-+3V3") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/3fc3a397-ec3a-4314-aa6a-44925ef4cbbe"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/45099ef8-b470-4f34-a90e-0a936a6b6d10"
+      (reference "#PWR?") (unit 1) (value "POWER-+3V3") (footprint "")
+    )
+    (path "/56bd3a46-de12-45e9-9566-afec966f2cad/55c0bea1-3517-4222-b109-4abebf6fdcd1"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/730780c7-40bd-484b-b640-ae047209b478"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/ae9a2cfc-2e02-4731-9394-e388bba596f8"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/b4796a06-5ec1-4b7e-a305-c6447cc5c644"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/e525b640-a490-46b0-aa2a-5838f1d12b7d"
+      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/fedb7d4b-8ca2-493c-b9a1-22e781d6d436"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3e9b3e5f-7172-4412-9e9a-af7341007fe7"
       (reference "C101") (unit 1) (value "1µ") (footprint "tronixio:CAPACITOR-1206")
     )
     (path "/d7b2515a-047e-4f28-aaac-61b1597ae42a"
       (reference "C102") (unit 1) (value "1µ") (footprint "tronixio:CAPACITOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/85c4eb9a-1efe-40fd-86af-36f89108b5f9"
+      (reference "C?") (unit 1) (value "100n") (footprint "tronixio:CAPACITOR-0805")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/d9c1c6f8-c198-49f9-bff0-eab2393a0053"
+      (reference "C?") (unit 1) (value "100n") (footprint "tronixio:CAPACITOR-1206")
     )
     (path "/bd7dbed2-53d4-417c-9458-85252bdbb186"
       (reference "H101") (unit 1) (value "MOUNTING-HOLE-MASK-3MM") (footprint "tronixio:M3-MASK")
@@ -1329,17 +1277,35 @@
     (path "/c257b1af-6beb-4041-9dd1-499cf666f3d8"
       (reference "IC101") (unit 1) (value "LM3480-33") (footprint "tronixio:SOT-23-3")
     )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/a2a055dc-7e5e-409c-bc15-cb64711b5b65"
+      (reference "IC?") (unit 1) (value "MICROCHIP-PIC24FJ64GA106-TQFP") (footprint "tronixio:TQFP-64")
+    )
     (path "/56bd3a46-de12-45e9-9566-afec966f2cad/9f0e67b6-f260-4089-b2ad-142f7a74e82f"
       (reference "K301") (unit 1) (value "Front") (footprint "tronixio:zzHARWIN-M20-782104x")
     )
     (path "/56bd3a46-de12-45e9-9566-afec966f2cad/955c2cd7-63c3-4adf-ba6d-522de24ba178"
       (reference "K302") (unit 1) (value "Rear") (footprint "tronixio:zzHARWIN-M20-782104x")
     )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/fd27925d-9b2e-4663-bdb7-e46b9715b801"
+      (reference "K?") (unit 1) (value "ICSP") (footprint "tronixio:HARWIN-M20-998034x")
+    )
     (path "/d60193f4-8481-4abd-b144-cbba3dc6e1a6"
-      (reference "LED101") (unit 1) (value "+3V3") (footprint "tronixio:LED-1206")
+      (reference "LED101") (unit 1) (value "Power") (footprint "tronixio:LED-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/d789eb5c-7750-4e88-bd51-088f1d8d4899"
+      (reference "MEMS?") (unit 1) (value "MICROCHIP-DSC1001C-245760-CDFN") (footprint "tronixio:CDFN-3225")
     )
     (path "/8003b8b6-1f3c-47e9-a876-bee51c25ef20"
       (reference "R101") (unit 1) (value "6K8") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/6bdf4c09-0d97-4f84-a45b-4830c8cb3132"
+      (reference "R?") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/d0b8883f-56d3-436a-a178-a658388f963b"
+      (reference "R?") (unit 1) (value "1K") (footprint "tronixio:RESISTOR-1206")
+    )
+    (path "/6012b3a0-2f30-4458-8240-bd443182c6c0/2a6f1b1e-6809-43d7-b0c5-e4424e33d333"
+      (reference "S?") (unit 1) (value "Reset") (footprint "tronixio:ALPS-SKRPAC")
     )
     (path "/6ab23ab0-73e6-4657-ab97-4027cb5eba59"
       (reference "TP101") (unit 1) (value "HARWIN-S1751") (footprint "tronixio:zzzHARWIN-S1751")
