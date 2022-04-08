@@ -16,23 +16,23 @@
 - [PWM.](https://github.com/tronixio/robot-tbot/blob/main/Code/pwm/)
 -->
 
-## TCAR MCU PIC 16Bit top.
+## TCAR MCU PIC 16Bit Top.
 
 <!--
 ![TCAR MCU Top.](https://raw.githubusercontent.com/tronixio/robot-tcar/main/Kicad/mcu/extras/top.png)
 -->
 
-## TCAR MCU PIC 16Bit bottom.
+## TCAR MCU PIC 16Bit Bottom.
 
 <!--
 ![TCAR MCU Top.](https://raw.githubusercontent.com/tronixio/robot-tcar/main/Kicad/mcu/extras/top.png)
 -->
 
-## TCAR Motor top.
+## TCAR Motor Top.
 
 ![TCAR Motor Top.](https://raw.githubusercontent.com/tronixio/robot-tcar/main/Kicad/motors/extras/top.png)
 
-## TCAR Motor bottom.
+## TCAR Motor Bottom.
 
 ![TCAR Motor Bottom.](https://raw.githubusercontent.com/tronixio/robot-tcar/main/Kicad/motors/extras/bottom.png)
 
