@@ -10,7 +10,7 @@
 - [MCU Board PIC-16BIT.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/mcu/extras/schematic.pdf)
 - [Motors Board LP298.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/motors/extras/schematic.pdf)
 
-## TCAR Code - PIC24FJ64GA106.
+## TCAR Code.
 
 <!--
 - [PWM.](https://github.com/tronixio/robot-tbot/blob/main/Code/pwm/)
