@@ -1,4 +1,4 @@
-# DRAFT - ROBOT - TCAR 4 Wheels.
+# DRAFT - TCAR 4 Wheels.
 
 ## Features.
 
