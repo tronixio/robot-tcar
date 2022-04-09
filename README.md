@@ -3,28 +3,26 @@
 ## TCAR Features.
 
 - 4 Wheels.
+- 4 DC Motors.
 - Power 2xCells 18650 Lithium Ion Rechargeable Batteries, with embedded charger.
+- [4WD Motor Smart Car Chassis.](http://www.dagurobot.com/Robot-Chassis/HC021-P)
 
 ## TCAR All Schematics.
 
 - [MCU Board PIC-16BIT.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/mcu/extras/schematic.pdf)
 - [Motors Board LP298.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/motors/extras/schematic.pdf)
 
+<!--
 ## TCAR Code.
 
-<!--
 - [PWM.](https://github.com/tronixio/robot-tbot/blob/main/Code/pwm/)
--->
 
 ## TCAR MCU PIC 16Bit Top.
 
-<!--
 ![TCAR MCU Top.](https://raw.githubusercontent.com/tronixio/robot-tcar/main/Kicad/mcu/extras/top.png)
--->
 
 ## TCAR MCU PIC 16Bit Bottom.
 
-<!--
 ![TCAR MCU Top.](https://raw.githubusercontent.com/tronixio/robot-tcar/main/Kicad/mcu/extras/top.png)
 -->
 
