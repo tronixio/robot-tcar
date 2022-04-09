@@ -9,8 +9,8 @@
 
 ## TCAR All Schematics.
 
-- [MCU Board PIC-16BIT.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/mcu/extras/schematic.pdf)
-- [Motors Board LP298.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/motors/extras/schematic.pdf)
+- [TODO - MCU Board PIC-16BIT.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/mcu/extras/schematic.pdf)
+- [TODO - Motors Board LP298.](https://github.com/tronixio/robot-tcar/blob/main/Kicad/motors/extras/schematic.pdf)
 
 <!--
 ## TCAR Code.
