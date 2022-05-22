@@ -32,6 +32,7 @@ MplabX/XC16-P24FJ64GA106.X/nbproject/Makefile-*
 MplabX/XC16-P24FJ64GA106.X/disassembly/
 MplabX/XC16-P24FJ64GA106.X/*.map
 MplabX/XC16-P24FJ64GA106.X/Makefile
+MplabX/XC16-P24FJ64GA106.X/.generated_files/
 
 # VI Swap
 [._]*.s[a-v][a-z]
