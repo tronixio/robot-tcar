@@ -2280,7 +2280,7 @@
     (pin "1" (uuid d790b21e-4a8e-4036-82e7-81c64a632847))
     (pin "2" (uuid 7222749e-001b-484a-b1de-49cc3feaf044))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D214") (unit 1)
         )
@@ -2308,7 +2308,7 @@
     )
     (pin "1" (uuid 9374a5dc-80d7-40b7-8052-a8b79b6f8be3))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0126") (unit 1)
         )
@@ -2336,7 +2336,7 @@
     )
     (pin "1" (uuid 83553631-758b-4d96-aea4-f033ad03f001))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0160") (unit 1)
         )
@@ -2365,7 +2365,7 @@
     (pin "1" (uuid aef818a7-416a-4f7e-b8a0-09b8d45ec5ec))
     (pin "2" (uuid f3aa7901-16d7-4be8-9c39-bbc7d5412418))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D210") (unit 1)
         )
@@ -2400,7 +2400,7 @@
     (pin "1" (uuid 687ff044-8659-45bc-8abe-e7b89f18c76a))
     (pin "2" (uuid d407e31d-0334-4f3c-b4c9-6b9b05a53862))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C207") (unit 1)
         )
@@ -2429,7 +2429,7 @@
     (pin "1" (uuid f519062f-1d25-4dfe-92fe-59660edfd4b8))
     (pin "2" (uuid 14ff6c44-0cb9-4ea8-af41-824e7a8ec786))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "LED203") (unit 1)
         )
@@ -2458,7 +2458,7 @@
     (pin "1" (uuid b90b3df9-d76a-493f-92cd-68c1a2f6a899))
     (pin "2" (uuid 1fe4cacc-e978-4dd8-a89e-da0465d07358))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D202") (unit 1)
         )
@@ -2486,7 +2486,7 @@
     )
     (pin "1" (uuid eca7bafd-38aa-410e-b865-e92e3e204084))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0127") (unit 1)
         )
@@ -2515,7 +2515,7 @@
     (pin "1" (uuid b2ed1608-6faa-4d86-b37f-a89ee1fb49b7))
     (pin "2" (uuid b2a383a6-1738-4675-9f57-059d9ab94420))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "LED204") (unit 1)
         )
@@ -2543,7 +2543,7 @@
     )
     (pin "1" (uuid 773fe7e9-7a2b-4e92-89ca-30d9e5cc572d))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0146") (unit 1)
         )
@@ -2571,7 +2571,7 @@
     )
     (pin "1" (uuid 7b18c319-558a-4b41-aac0-339e2d1c4f87))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0167") (unit 1)
         )
@@ -2599,7 +2599,7 @@
     )
     (pin "1" (uuid ae5a6bc3-af11-46cf-b6a1-9329d02cfce4))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0136") (unit 1)
         )
@@ -2627,7 +2627,7 @@
     )
     (pin "1" (uuid 18b58109-aaa9-421b-a9b9-cc389c8dbbe3))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0168") (unit 1)
         )
@@ -2655,7 +2655,7 @@
     )
     (pin "1" (uuid c916d2b8-f7e7-4ce6-81ca-3663a416a56c))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0129") (unit 1)
         )
@@ -2687,7 +2687,7 @@
     (pin "1" (uuid 406e0587-1c75-4ed7-8a3a-51af27eca77b))
     (pin "2" (uuid efdea2c5-c43d-4f56-b68d-99a536edd4ae))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "R208") (unit 1)
         )
@@ -2722,7 +2722,7 @@
     (pin "1" (uuid 12fd13e9-f3bd-432d-b3eb-8ea8d9ce837d))
     (pin "2" (uuid 54cadc87-63cd-456d-a6b2-16f268abc04f))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C201") (unit 1)
         )
@@ -2750,7 +2750,7 @@
     )
     (pin "1" (uuid 72dc6da7-384f-4f7f-ac3f-36db2d5f49dc))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0151") (unit 1)
         )
@@ -2778,7 +2778,7 @@
     )
     (pin "1" (uuid e263d1a6-d9f3-4d9b-959d-5ee306f2b54d))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0128") (unit 1)
         )
@@ -2807,7 +2807,7 @@
     (pin "1" (uuid 79064cb4-51d9-4e2a-b490-f8c7dcdc894e))
     (pin "2" (uuid 22e2e995-3148-47b3-846b-f1547bb977bf))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "LED206") (unit 1)
         )
@@ -2842,7 +2842,7 @@
     (pin "1" (uuid f5f4c7e2-23ab-46af-858d-68b8db79b15c))
     (pin "2" (uuid b3177dfa-dfef-4f1b-857b-8aaac7daa21a))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C211") (unit 1)
         )
@@ -2870,7 +2870,7 @@
     )
     (pin "1" (uuid fc422bbc-494c-4556-8c12-0672ee6575e7))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0141") (unit 1)
         )
@@ -2898,7 +2898,7 @@
     )
     (pin "1" (uuid 5a5c62b9-b3ac-4671-a009-731cb0939858))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0169") (unit 1)
         )
@@ -2927,7 +2927,7 @@
     (pin "1" (uuid 634c4ae5-36bd-4b9f-8933-fbb1cb1473cd))
     (pin "2" (uuid 557dd9a8-2767-404b-b3a6-3d0754549790))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "K202") (unit 1)
         )
@@ -2962,7 +2962,7 @@
     (pin "1" (uuid e5b6f193-22e1-4083-a657-357a8dfe1bd0))
     (pin "2" (uuid 870ed9d2-89b8-41fb-abd0-1ffa7d0b5ce6))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C206") (unit 1)
         )
@@ -2995,7 +2995,7 @@
     (pin "2" (uuid 4490b9bb-370f-4ce8-a4ba-de8a39ba03b4))
     (pin "5" (uuid 9da0868d-9dd6-431d-8405-472373eff475))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "U205") (unit 1)
         )
@@ -3023,7 +3023,7 @@
     )
     (pin "1" (uuid 9037917e-57cc-4b4d-a5a5-a0e84bae8533))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0152") (unit 1)
         )
@@ -3058,7 +3058,7 @@
     (pin "1" (uuid b516aa7f-b0f1-4dd1-8de3-8fd78cf9c675))
     (pin "2" (uuid df018311-bc60-4791-9631-14e35c81af38))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C204") (unit 1)
         )
@@ -3087,7 +3087,7 @@
     (pin "1" (uuid 5a68bdc9-12c2-4111-afeb-1f8c26908b5d))
     (pin "2" (uuid b42a0df3-80b8-4bac-b5a8-24ce3ec9d79b))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "K203") (unit 1)
         )
@@ -3116,7 +3116,7 @@
     (pin "1" (uuid 1f919523-0bdf-4ce3-9e06-850be19d7505))
     (pin "2" (uuid ec872fbc-4368-49f1-bdb4-0461817599df))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D215") (unit 1)
         )
@@ -3149,7 +3149,7 @@
     (pin "2" (uuid 5a98db2f-362c-4e20-986a-5314a9883a0e))
     (pin "5" (uuid 158d4917-4701-4fd9-91a8-27c12ec51018))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "U206") (unit 1)
         )
@@ -3177,7 +3177,7 @@
     )
     (pin "1" (uuid 254570b8-04b1-4cac-b98c-d5f5fdadf8d6))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0157") (unit 1)
         )
@@ -3205,7 +3205,7 @@
     )
     (pin "1" (uuid 2346860c-9d44-4d05-a017-72a64c9a3ad3))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0166") (unit 1)
         )
@@ -3233,7 +3233,7 @@
     )
     (pin "1" (uuid cd44e0a4-b5bc-44f8-9061-69a0ef3d7167))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0139") (unit 1)
         )
@@ -3262,7 +3262,7 @@
     (pin "1" (uuid e9dec597-34e5-4cea-8d8b-1b23a4017415))
     (pin "2" (uuid ccf0d274-bbe4-4d88-9ac1-c15b2118e2fc))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "LED208") (unit 1)
         )
@@ -3295,7 +3295,7 @@
     (pin "2" (uuid 476af461-18cf-46f0-844c-c384b6c23789))
     (pin "5" (uuid c9666a51-56e8-4e1c-a5a2-7388ec0c12a3))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "U203") (unit 1)
         )
@@ -3323,7 +3323,7 @@
     )
     (pin "1" (uuid 7c8b4298-87b5-4bea-b4fe-47df63d793b2))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0156") (unit 1)
         )
@@ -3351,7 +3351,7 @@
     )
     (pin "1" (uuid 1fd811dc-b4b9-4431-99d4-108bd9703328))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0161") (unit 1)
         )
@@ -3380,7 +3380,7 @@
     (pin "1" (uuid 92cf9b55-9e6b-4ce6-84aa-a3170180c567))
     (pin "2" (uuid bb0403b6-ff99-49ab-9b98-25549ba6c4b9))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D211") (unit 1)
         )
@@ -3408,7 +3408,7 @@
     )
     (pin "1" (uuid 7f7e974f-01b7-4fa1-83de-c1af5f0a8259))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0163") (unit 1)
         )
@@ -3437,7 +3437,7 @@
     (pin "1" (uuid 9caec552-65d1-48f2-9f78-4c38b07d5a98))
     (pin "2" (uuid 178489c3-bc15-4dde-87d6-a1d39606a85f))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D209") (unit 1)
         )
@@ -3465,7 +3465,7 @@
     )
     (pin "1" (uuid 69cb0614-c074-4697-b673-0c824b30e4ef))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0170") (unit 1)
         )
@@ -3493,7 +3493,7 @@
     )
     (pin "1" (uuid 8f8e2571-6d06-4483-938e-c95f6d873c90))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0148") (unit 1)
         )
@@ -3528,7 +3528,7 @@
     (pin "1" (uuid 7627f578-6151-4ca6-affc-979f7013ae7f))
     (pin "2" (uuid 32c0c73d-f7e6-4e7e-b291-f9793b48c500))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C212") (unit 1)
         )
@@ -3556,7 +3556,7 @@
     )
     (pin "1" (uuid 1c186dec-2588-4cce-b27f-c1d2b70e687f))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0145") (unit 1)
         )
@@ -3585,7 +3585,7 @@
     (pin "1" (uuid d67aea1a-5b00-4753-b943-6a5c4785201c))
     (pin "2" (uuid 2ffb4111-5c9c-443e-9876-78e118ff51ab))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D204") (unit 1)
         )
@@ -3618,7 +3618,7 @@
     (pin "2" (uuid fed67de7-f580-4459-b75f-0db0ada9f28c))
     (pin "5" (uuid b37bab49-d8e7-4408-8abe-e12901d04f52))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "U206") (unit 2)
         )
@@ -3647,7 +3647,7 @@
     (pin "1" (uuid babb1850-e201-438d-bd78-c54acc221695))
     (pin "2" (uuid b54a36db-9d9d-496a-9521-e25b25a90fe3))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D201") (unit 1)
         )
@@ -3675,7 +3675,7 @@
     )
     (pin "1" (uuid 3ccad293-60a9-4789-9227-57b6f92a3856))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0159") (unit 1)
         )
@@ -3703,7 +3703,7 @@
     )
     (pin "1" (uuid f4afd16f-0201-403c-b358-8c3cf3eae0f2))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0143") (unit 1)
         )
@@ -3731,7 +3731,7 @@
     )
     (pin "1" (uuid 0e7070a2-88cd-4c1d-b6da-b1d06f098352))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0155") (unit 1)
         )
@@ -3760,7 +3760,7 @@
     (pin "1" (uuid c1b1be83-9a9a-4b5b-8d9f-a7caf5d69861))
     (pin "2" (uuid 1b3383a2-8a64-41f3-acfd-9739e21c8082))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "LED201") (unit 1)
         )
@@ -3793,7 +3793,7 @@
     (pin "2" (uuid 85ed031c-7bd9-4611-b5e9-645d23f47c6b))
     (pin "5" (uuid 8b5c5c35-9fa6-42ab-a00b-53767849c852))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "U203") (unit 2)
         )
@@ -3825,7 +3825,7 @@
     (pin "1" (uuid 102f550e-ac13-4e89-8cea-9aa0cc21dba1))
     (pin "2" (uuid c0137090-07b1-46d5-bb06-a79e34693bb4))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "R210") (unit 1)
         )
@@ -3854,7 +3854,7 @@
     (pin "1" (uuid 1087b12e-79c1-4465-b012-d2517cecfcd8))
     (pin "2" (uuid 5bf795e4-c1f7-4189-b759-29d94975f107))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D216") (unit 1)
         )
@@ -3882,7 +3882,7 @@
     )
     (pin "1" (uuid 58b1620b-1909-4e92-83fd-63ed18da9f87))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0164") (unit 1)
         )
@@ -3910,7 +3910,7 @@
     )
     (pin "1" (uuid 28d5d363-6be4-4c82-b9f5-3e1dbd707b1c))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0165") (unit 1)
         )
@@ -3938,7 +3938,7 @@
     )
     (pin "1" (uuid e88290c5-b2e6-4c39-8df8-d842895f8a8e))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0132") (unit 1)
         )
@@ -3970,7 +3970,7 @@
     (pin "1" (uuid f40de834-4875-4aaa-8380-c2191b80ad6b))
     (pin "2" (uuid 9ebb4b32-986e-4cdd-a5c1-1b2f8eccb229))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "R207") (unit 1)
         )
@@ -4002,7 +4002,7 @@
     (pin "1" (uuid b8af73c9-d0bd-4362-933a-690eb14d114f))
     (pin "2" (uuid c5f15e14-b119-4b51-97d8-1b42a1255b27))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "R202") (unit 1)
         )
@@ -4031,7 +4031,7 @@
     (pin "1" (uuid 333dae4c-d8f6-4a05-aee5-63e03e512235))
     (pin "2" (uuid f9aa0799-d6f8-496e-ae74-cb01a77c558f))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D207") (unit 1)
         )
@@ -4064,7 +4064,7 @@
     (pin "2" (uuid 545d441f-f956-47fc-9336-f08cbe04e1fa))
     (pin "5" (uuid 0d89daf4-8c33-4db7-97ae-6a296a63e58b))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "U202") (unit 2)
         )
@@ -4093,7 +4093,7 @@
     (pin "1" (uuid de3b8615-c494-464a-a6c4-1456749de726))
     (pin "2" (uuid 819b5293-fc85-496e-b132-c1727d38ec73))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D208") (unit 1)
         )
@@ -4121,7 +4121,7 @@
     )
     (pin "1" (uuid 09a14b3e-5d6a-459f-b4a3-243448f38680))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0158") (unit 1)
         )
@@ -4149,7 +4149,7 @@
     )
     (pin "1" (uuid 300478ab-6e66-4343-84ee-6859588dac70))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "TP201") (unit 1)
         )
@@ -4184,7 +4184,7 @@
     (pin "1" (uuid 5f6055ce-780e-4e93-ae48-f2d0620e196f))
     (pin "2" (uuid 845526f3-fc9c-46b6-b000-18bda85335a4))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C205") (unit 1)
         )
@@ -4212,7 +4212,7 @@
     )
     (pin "1" (uuid b912ec34-041d-4a02-8d81-8b6d0dabde77))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0134") (unit 1)
         )
@@ -4241,7 +4241,7 @@
     (pin "1" (uuid 587e91c1-645c-482c-830f-d6f1988b0086))
     (pin "2" (uuid b38e50ac-b771-4cab-b83b-fb56a8990abd))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "LED205") (unit 1)
         )
@@ -4270,7 +4270,7 @@
     (pin "1" (uuid 88a6dd1d-bc79-4ad2-a415-25990ca68952))
     (pin "2" (uuid f74fb552-7e22-49ed-a0c0-4b0ee893440e))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D206") (unit 1)
         )
@@ -4298,7 +4298,7 @@
     )
     (pin "1" (uuid fa8c0ec5-fb2f-4e71-9808-ab53e1eb55f2))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0131") (unit 1)
         )
@@ -4326,7 +4326,7 @@
     )
     (pin "1" (uuid dd73ae05-9400-419f-bcee-a69b32e2c0a4))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0138") (unit 1)
         )
@@ -4355,7 +4355,7 @@
     (pin "1" (uuid 58e7e1a8-1d7d-4843-9f16-4d01ac0d62e1))
     (pin "2" (uuid 1f3f7768-050f-4354-a467-3c005803b0e4))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "K204") (unit 1)
         )
@@ -4387,7 +4387,7 @@
     (pin "1" (uuid 6406c58f-26b8-415f-8243-eba163ae5019))
     (pin "2" (uuid b2036d9d-1511-4d48-a550-4e3bf3cc48a5))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "R204") (unit 1)
         )
@@ -4415,7 +4415,7 @@
     )
     (pin "1" (uuid 2bdf8470-cdee-4175-aad6-f0998d15b6b7))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0137") (unit 1)
         )
@@ -4443,7 +4443,7 @@
     )
     (pin "1" (uuid 98217554-8033-489d-a77e-70002b935cff))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0135") (unit 1)
         )
@@ -4475,7 +4475,7 @@
     (pin "1" (uuid 744ead48-2427-4f6b-b0d8-d70637927833))
     (pin "2" (uuid bdf36a3d-8b33-46a8-8a4c-c441f546de5c))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "R205") (unit 1)
         )
@@ -4510,7 +4510,7 @@
     (pin "1" (uuid eb8c7816-594f-4040-a6dd-f7b9c9c918f5))
     (pin "2" (uuid a651e47f-70f7-4fbb-a254-68d0bb837783))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C208") (unit 1)
         )
@@ -4545,7 +4545,7 @@
     (pin "1" (uuid be56a67a-e2ee-4d10-8182-ea46d7603cd9))
     (pin "2" (uuid 48e218d7-9fe0-4325-bb22-482ee3d79a68))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C210") (unit 1)
         )
@@ -4573,7 +4573,7 @@
     )
     (pin "1" (uuid 66ec4426-8fa5-43c2-95aa-184c79734dca))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0153") (unit 1)
         )
@@ -4602,7 +4602,7 @@
     (pin "1" (uuid 71bc0858-5d3f-406b-a485-647b351b0f72))
     (pin "2" (uuid 57881edb-70ce-4131-bbba-76846dd50daf))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "LED207") (unit 1)
         )
@@ -4634,7 +4634,7 @@
     (pin "1" (uuid c0be125f-750a-40b4-bb3c-7ed188f9c132))
     (pin "2" (uuid 7e47b3d9-96f9-48a4-941f-6f230cfbd606))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "R203") (unit 1)
         )
@@ -4666,7 +4666,7 @@
     (pin "1" (uuid 039d388c-306a-4e74-90db-618920a73bec))
     (pin "2" (uuid 57c37085-577f-4458-bd99-4b85f09ef556))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "R209") (unit 1)
         )
@@ -4694,7 +4694,7 @@
     )
     (pin "1" (uuid 62fabb5e-5514-4d87-91d8-83f560c5e803))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0130") (unit 1)
         )
@@ -4742,7 +4742,7 @@
     (pin "8" (uuid fa2d19c0-e848-4fa9-a2fb-f6c77b2d1d26))
     (pin "9" (uuid 88b36a48-5d06-4d56-9e99-7ba27a34ba9f))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "U204") (unit 1)
         )
@@ -4770,7 +4770,7 @@
     )
     (pin "1" (uuid 5e5722dc-239d-4124-9a75-577aa8b18759))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0142") (unit 1)
         )
@@ -4798,7 +4798,7 @@
     )
     (pin "1" (uuid 9d16b214-47a0-4609-862c-a9b88afda8b3))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0150") (unit 1)
         )
@@ -4826,7 +4826,7 @@
     )
     (pin "1" (uuid 18d117a9-030b-44c0-9277-1da8593c1a9a))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0144") (unit 1)
         )
@@ -4855,7 +4855,7 @@
     (pin "1" (uuid 375a817a-c91e-405d-bff1-8bf3b332c0e4))
     (pin "2" (uuid 27970864-c190-4a76-9dcb-f7baf5f68f57))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "LED202") (unit 1)
         )
@@ -4884,7 +4884,7 @@
     (pin "1" (uuid 7752bfac-8926-4866-9468-34070de41857))
     (pin "2" (uuid 28a7679e-8bdf-4094-b9e7-6f08ed87646f))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "LED209") (unit 1)
         )
@@ -4914,7 +4914,7 @@
     (pin "2" (uuid f320dedf-3b9f-4258-838a-5108affa0c49))
     (pin "3" (uuid 541ec236-aa98-4ec0-b4ee-907127c7bf7e))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "U207") (unit 1)
         )
@@ -4947,7 +4947,7 @@
     (pin "2" (uuid b2f76424-e2ce-4dfc-ade5-e1d0162b6e23))
     (pin "5" (uuid 5ba19575-6efd-4422-b1e1-564235bc68c0))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "U202") (unit 1)
         )
@@ -4976,7 +4976,7 @@
     (pin "1" (uuid 4e023fef-1e6d-4943-a05f-3076c53ac322))
     (pin "2" (uuid f6cae436-e0bf-446d-85ae-204ae1513f0b))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D213") (unit 1)
         )
@@ -5011,7 +5011,7 @@
     (pin "1" (uuid f282242b-d825-4602-8684-d105aaa1360d))
     (pin "2" (uuid 13eaac1f-2a87-49ba-a308-3aabcc825904))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C202") (unit 1)
         )
@@ -5040,7 +5040,7 @@
     (pin "1" (uuid 237c99f4-5bc5-4db9-9ca0-d30591fca656))
     (pin "2" (uuid 32554b68-56b2-4b72-a29d-045fc303ffd5))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D205") (unit 1)
         )
@@ -5072,7 +5072,7 @@
     (pin "1" (uuid 66bb9eb6-f3a0-4284-b1ba-ee78bdc747d3))
     (pin "2" (uuid 4127a6dd-cbef-4c91-a774-99c4a017f43e))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "R201") (unit 1)
         )
@@ -5100,7 +5100,7 @@
     )
     (pin "1" (uuid 0ed39f01-a953-4f93-83b0-efc622c008e2))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0162") (unit 1)
         )
@@ -5129,7 +5129,7 @@
     (pin "1" (uuid 31628be6-5186-4934-b9a1-fda7551eec3b))
     (pin "2" (uuid 0fb103d1-4ae9-47fa-ba0f-706908b0d9b3))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D203") (unit 1)
         )
@@ -5157,7 +5157,7 @@
     )
     (pin "1" (uuid 9d737ecb-08ba-41db-9bbe-99dbf63274f3))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0140") (unit 1)
         )
@@ -5185,7 +5185,7 @@
     )
     (pin "1" (uuid 301f807b-9bf0-4f4c-9e34-e5e19301e241))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0133") (unit 1)
         )
@@ -5218,7 +5218,7 @@
     (pin "2" (uuid 9f67ee33-4b08-41d3-84ce-a5fc0d2b3943))
     (pin "5" (uuid ee56e7fd-0b29-4af5-bc9c-d62d1d9ed30f))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "U205") (unit 2)
         )
@@ -5253,7 +5253,7 @@
     (pin "1" (uuid 6e472f0a-6442-4ad3-9b15-2b433d0809ea))
     (pin "2" (uuid 44bafd3a-3594-493a-9062-d8527d392693))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C209") (unit 1)
         )
@@ -5281,7 +5281,7 @@
     )
     (pin "1" (uuid d0f7dbf0-55b7-4eaf-8031-2973ebb4070e))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0149") (unit 1)
         )
@@ -5313,7 +5313,7 @@
     (pin "1" (uuid e426c65c-2647-4883-82fe-c75f1b30eff9))
     (pin "2" (uuid f53583c6-d3f2-4a75-8424-ae10502e2c0d))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "R206") (unit 1)
         )
@@ -5348,7 +5348,7 @@
     (pin "1" (uuid 9d8b35ed-dd4f-4a5c-9826-ae4907761ef8))
     (pin "2" (uuid c3c5c6dd-a6c2-48a1-9f4b-9c680ae5ff6a))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "C203") (unit 1)
         )
@@ -5376,7 +5376,7 @@
     )
     (pin "1" (uuid 97853d84-d2ab-4d28-ae6e-25aa52941d86))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0147") (unit 1)
         )
@@ -5404,7 +5404,7 @@
     )
     (pin "1" (uuid 187607fb-bd80-454a-bdc2-0a3839ac1a7e))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "#PWR0154") (unit 1)
         )
@@ -5433,7 +5433,7 @@
     (pin "1" (uuid 043e2d6c-697c-487e-81be-b31ba64c043a))
     (pin "2" (uuid 787ec1e3-b476-4137-b5ca-275fe5c06534))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "D212") (unit 1)
         )
@@ -5462,7 +5462,7 @@
     (pin "1" (uuid 204eccf4-fc6d-465f-97bb-8692c1198cc4))
     (pin "2" (uuid dd25cabf-8691-4d86-9150-7059cc80889d))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "K201") (unit 1)
         )
@@ -5494,7 +5494,7 @@
     (pin "1" (uuid bcde726c-d95e-4d8b-866a-b5421ec75965))
     (pin "2" (uuid 6fe5cbce-00b6-4507-948d-a9f8257572ed))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "R211") (unit 1)
         )
@@ -5542,7 +5542,7 @@
     (pin "8" (uuid b7ec1f75-4085-482e-a1da-081dd8e69f85))
     (pin "9" (uuid 5794316b-3cec-4720-8253-0f161c44eca6))
     (instances
-      (project "motors"
+      (project "main"
         (path "/4da6a938-c60d-4f2b-b220-45104eaab2a6/6012b3a0-2f30-4458-8240-bd443182c6c0"
           (reference "U201") (unit 1)
         )
