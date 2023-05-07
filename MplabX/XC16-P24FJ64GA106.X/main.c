@@ -12,9 +12,9 @@
 #include <xc.h>
 #include <libpic30.h>
 #include <p24FJ64GA106.h>
-// PIC24FJ64GA106 - Compile with XC16(v2.00).
+// PIC24FJ64GA106 - Compile with XC16(v2.10).
 // PIC24FJ64GA106 - @24.576MHz External Oscillator.
-// v0.1 - xx/2021.
+// v0.1 - xx/2023.
 
 // TCAR - Rev.A.
 
@@ -37,10 +37,10 @@
 
 // Definitions.
 // IR Encoder Motor.
-#define ENCODER_M12_OFF            LATDbits.LATD6 = 0b0
-#define ENCODER_M12_ON             LATDbits.LATD6 = 0b1
-#define ENCODER_M34_OFF            LATBbits.LATB10 = 0b0
-#define ENCODER_M34_ON             LATBbits.LATB10 = 0b1
+#define ENCODER_M12_DISABLE        LATDbits.LATD6 = 0b0
+#define ENCODER_M12_ENABLE         LATDbits.LATD6 = 0b1
+#define ENCODER_M34_DISABLE        LATBbits.LATB10 = 0b0
+#define ENCODER_M34_ENABLE         LATBbits.LATB10 = 0b1
 // LED.
 #define LED1_OFF                   LATBbits.LATB1 = 0b0
 #define LED1_ON                    LATBbits.LATB1 = 0b1
@@ -57,10 +57,10 @@
 #define MOTOR_PWM_FRONT_RIGHT       OC2R
 #define MOTOR_PWM_REAR_LEFT         OC3R
 #define MOTOR_PWM_REAR_RIGHT        OC4R
-#define MOTOR_STOP                  LATDbits.LATD7 = 0b0
-#define MOTOR_nSTOP                 LATDbits.LATD7 = 0b1
-#define MOTOR_BRAKE                 LATBbits.LATB13 = 0b1
-#define MOTOR_nBRAKE                LATBbits.LATB13 = 0b0
+#define MOTOR_STOP_ENGAGE           LATDbits.LATD7 = 0b0
+#define MOTOR_STOP_RELEASE          LATDbits.LATD7 = 0b1
+#define MOTOR_BRAKE_ENGAGE          LATBbits.LATB13 = 0b1
+#define MOTOR_BRAKE_RELEASE         LATBbits.LATB13 = 0b0
 // Switch.
 #define SWITCH1                     PORTBbits.RB5
 #define SWITCH2                     PORTBbits.RB4
@@ -78,51 +78,51 @@ int main(void)
     // Analog Inputs Settings.
     AD1PCFGL = 0b1111111111111110;
     AD1PCFGH = 0b0000000000000011;
-    // Port B Settings.
+    // PORTB Settings.
     TRISB = 0b1000000100110001;
     PORTB = 0b0000000000000000;
     LATB = 0b0000000000000000;
     ODCB = 0b0000000000000000;
-    // Port C Settings.
+    // PORTC Settings.
     TRISC = 0b0000000000000000;
     PORTC = 0b0000000000000000;
     LATC = 0b0000000000000000;
     ODCC = 0b0000000000000000;
-    // Port D Settings.
+    // PORTD Settings.
     TRISD = 0b0000000000000110;
     PORTD = 0b0000000000000000;
     LATD = 0b0000000000000000;
     ODCD = 0b0000000000000000;
-    // Port E Settings.
+    // PORTE Settings.
     TRISE = 0b0000000000000000;
     PORTE = 0b0000000000000000;
     LATE = 0b0000000000000000;
     ODCE = 0b0000000000000000;
-    // Port F Settings.
+    // PORTF Settings.
     TRISF = 0b0000000000110000;
     PORTF = 0b0000000000000000;
     LATF = 0b0000000000000000;
     ODCF = 0b0000000000000000;
-    // Port G Settings.
+    // PORTG Settings.
     TRISG = 0b0000000000000000;
     PORTG = 0b0000000000000000;
     LATG = 0b0000000000000000;
     ODCG = 0b0000000000000000;
     // PPS Initialization.
     __builtin_write_OSCCONL(OSCCON & 0xBF);
-    // PPS Inputs settings.
+    // PPS Inputs Settings.
     RPINR7bits.IC1R = 0x17;		// RD2  - RP23 - IC1R.
     RPINR7bits.IC2R = 0x18;		// RD1  - RP24 - IC2R.
     RPINR8bits.IC3R = 0x8;		// RB8  - RP8  - IC3R.
     RPINR8bits.IC4R = 0x1D;		// RB15 - RP29 - IC4R.
-    // PPS Outputs settings.
+    // PPS Outputs Settings.
     RPOR10bits.RP20R = 0x12;    // RD5  - RP20 - OC1.
     RPOR12bits.RP25R = 0x13;    // RD4  - RP25 - OC2.
     RPOR4bits.RP9R = 0x14;      // RB9  - RP9  - OC3.
     RPOR7bits.RP14R = 0x15;     // RB14 - RP14 - OC4.
     __builtin_write_OSCCONL(OSCCON | 0x40);
 
-    // InputCapture1 - Settings.
+    // InputCapture1 Settings.
 	IC1CON1bits.ICSIDL = 0b1;
 	IC1CON1bits.ICTSEL = 0b111;
 	IC1CON1bits.ICI = 0b00;
@@ -131,7 +131,7 @@ int main(void)
 	IC1CON2bits.ICTRIG = 0b0;
 	IC1CON2bits.SYNCSEL = 0b00000;
 
-    // InputCapture2 - Settings.
+    // InputCapture2 Settings.
 	IC2CON1bits.ICSIDL = 0b1;
 	IC2CON1bits.ICTSEL = 0b111;
 	IC2CON1bits.ICI = 0b00;
@@ -140,7 +140,7 @@ int main(void)
 	IC2CON2bits.ICTRIG = 0b0;
 	IC2CON2bits.SYNCSEL = 0b00000;
 
-    // InputCapture3 - Settings.
+    // InputCapture3 Settings.
 	IC3CON1bits.ICSIDL = 0b1;
 	IC3CON1bits.ICTSEL = 0b111;
 	IC3CON1bits.ICI = 0b00;
@@ -149,7 +149,7 @@ int main(void)
 	IC3CON2bits.ICTRIG = 0b0;
 	IC3CON2bits.SYNCSEL = 0b00000;
 
-    // InputCapture4 - Settings.
+    // InputCapture4 Settings.
 	IC4CON1bits.ICSIDL = 0b1;
 	IC4CON1bits.ICTSEL = 0b111;
 	IC4CON1bits.ICI = 0b00;
@@ -226,18 +226,18 @@ int main(void)
     OC4RS = MOTOR_PWM_FREQUENCY;
     OC4R = MOTOR_PWM_DUTY_CYCLE_STOP;
 
-    // Motors STOP.
-    MOTOR_STOP;
-    MOTOR_nBRAKE;
+    // Motors Stop & Brakes Release.
+    MOTOR_STOP_ENGAGE;
+    MOTOR_BRAKE_RELEASE;
 
-    // Encoder Enable.
-    ENCODER_M12_OFF;
-    ENCODER_M34_OFF;
+    // Encoders Enable.
+    ENCODER_M12_ENABLE;
+    ENCODER_M34_ENABLE;
 
     while(1){
         if(!SWITCH1){
             __delay_us(5);
-            MOTOR_nSTOP;
+            MOTOR_STOP_RELEASE;
             MOTOR_PWM_FRONT_LEFT = 20;
             LED1_ON;
         }else{
@@ -246,7 +246,7 @@ int main(void)
         }
         if(!SWITCH2){
             __delay_us(5);
-            MOTOR_nSTOP;
+            MOTOR_STOP_RELEASE;
             MOTOR_PWM_REAR_LEFT = 20;
             LED2_ON;
         }else{
@@ -255,7 +255,7 @@ int main(void)
         }
         if(!SWITCH3){
             __delay_us(5);
-            MOTOR_nSTOP;
+            MOTOR_STOP_RELEASE;
             MOTOR_PWM_FRONT_RIGHT = 20;
             LED3_ON;
         }else{
@@ -264,7 +264,7 @@ int main(void)
         }
         if(!SWITCH4){
             __delay_us(5);
-            MOTOR_nSTOP;
+            MOTOR_STOP_RELEASE;
             MOTOR_PWM_REAR_RIGHT = 20;
             LED4_ON;
         }else{
