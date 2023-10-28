@@ -465,9 +465,7 @@
     "pinned_footprint_libs": [
       "tronixio"
     ],
-    "pinned_symbol_libs": [
-      "tronixio"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "main.kicad_pro",
