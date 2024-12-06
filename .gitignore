@@ -1,47 +1,16 @@
 .DS_Store
-Diptrace/
 Docs/
 
-# KICAD.
+# Kicad.
 *.kicad_prl
 *.kicad_sch-bak
 Kicad/*/gerber/
 Kicad/*/*-backups/
 Kicad/*/fp-info-cache
 
-# MPLABX - XC16-P24FJ64GA106.X.
-MplabX/XC16-P24FJ64GA106.X/*.d
-MplabX/XC16-P24FJ64GA106.X/*.pre
-MplabX/XC16-P24FJ64GA106.X/*.p1
-MplabX/XC16-P24FJ64GA106.X/*.lst
-MplabX/XC16-P24FJ64GA106.X/*.sym
-MplabX/XC16-P24FJ64GA106.X/*.obj
-MplabX/XC16-P24FJ64GA106.X/*.o
-MplabX/XC16-P24FJ64GA106.X/*.sdb
-MplabX/XC16-P24FJ64GA106.X/*.obj.dmp
-MplabX/XC16-P24FJ64GA106.X/html/
-MplabX/XC16-P24FJ64GA106.X/nbproject/
-MplabX/XC16-P24FJ64GA106.X/build/
-MplabX/XC16-P24FJ64GA106.X/nbbuild/
-MplabX/XC16-P24FJ64GA106.X/dist/
-MplabX/XC16-P24FJ64GA106.X/nbdist/
-MplabX/XC16-P24FJ64GA106.X/nbactions.xml
-MplabX/XC16-P24FJ64GA106.X/nb-configuration.xml
-MplabX/XC16-P24FJ64GA106.X/funclist
-MplabX/XC16-P24FJ64GA106.X/nbproject/Makefile-*
-MplabX/XC16-P24FJ64GA106.X/disassembly/
-MplabX/XC16-P24FJ64GA106.X/*.map
-MplabX/XC16-P24FJ64GA106.X/Makefile
-MplabX/XC16-P24FJ64GA106.X/.generated_files/
-
-# VI Swap
-[._]*.s[a-v][a-z]
-!*.svg  # comment out if you don't need vector files
-[._]*.sw[a-p]
-[._]s[a-rt-v][a-z]
-[._]ss[a-gi-z]
-[._]sw[a-p]
-/MplabX/PICAS-P16F1778-IRWHEEL.X/build/
-/MplabX/PICAS-P16F1778-IRWHEEL.X/dist/
-/MplabX/XC8-P16F1778-IRWHEEL.X/dist/
-/MplabX/XC8-P16F1778-IRWHEEL.X/build/
+# MplabX.
+MplabX/*/build/
+MplabX/*/debug/
+MplabX/*/dist/
+MplabX/*/nbproject/
+MplabX/*/Makefile
