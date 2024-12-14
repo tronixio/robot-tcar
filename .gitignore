@@ -2,8 +2,9 @@
 Docs/
 
 # Kicad.
-*.kicad_prl
-*.kicad_sch-bak
+Kicad/*/*.kicad_prl
+Kicad/*/*.kicad_sch-bak
+Kicad/*/docs/
 Kicad/*/gerber/
 Kicad/*/*-backups/
 Kicad/*/fp-info-cache
